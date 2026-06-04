@@ -1,0 +1,897 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>美国副业 | 在美国找副业、兼职和赚钱机会</title>
+  <meta name="description" content="美国副业入口页：为在美华人整理副业、兼职、线上赚钱、小生意和省钱指南，点击前往 usfuye.com 阅读完整内容。">
+  <meta name="theme-color" content="#f45b2a">
+  <meta property="og:title" content="美国副业">
+  <meta property="og:description" content="专注分享美国华人副业、兼职、赚钱机会和低成本创业项目。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://usfuye.github.io/">
+  <meta property="og:image" content="https://usfuye.github.io/assets/hero-workspace.png">
+  <link rel="canonical" href="https://usfuye.github.io/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" as="image" href="assets/hero-workspace.png">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #16213a;
+      --muted: #667085;
+      --line: #e6ebf1;
+      --paper: #fbfcff;
+      --white: #ffffff;
+      --brand: #f45b2a;
+      --brand-dark: #c83f18;
+      --teal: #0f8f8f;
+      --green: #1b9b65;
+      --gold: #f6b83f;
+      --shadow: 0 24px 70px rgba(25, 35, 60, .14);
+      --radius: 8px;
+      font-family: Inter, "PingFang SC", "Microsoft YaHei", "Noto Sans SC", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      width: 100%;
+      max-width: 100%;
+      background:
+        linear-gradient(180deg, #fff7f2 0, #fbfcff 38%, #eef8f6 100%);
+      color: var(--ink);
+      line-height: 1.65;
+      letter-spacing: 0;
+      overflow-x: hidden;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(255, 255, 255, .84);
+      border-bottom: 1px solid rgba(230, 235, 241, .75);
+      backdrop-filter: blur(18px);
+    }
+
+    .nav {
+      width: min(1180px, calc(100% - 40px));
+      min-height: 70px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 850;
+      font-size: 20px;
+    }
+
+    .brand-mark {
+      width: 34px;
+      height: 34px;
+      display: grid;
+      place-items: center;
+      border-radius: 8px;
+      color: #fff;
+      background: linear-gradient(135deg, var(--brand), var(--teal));
+      box-shadow: 0 10px 22px rgba(244, 91, 42, .24);
+      font-size: 17px;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      color: #445066;
+      font-size: 14px;
+      font-weight: 650;
+      white-space: nowrap;
+    }
+
+    .nav-links a {
+      padding: 9px 12px;
+      border-radius: 8px;
+    }
+
+    .nav-links a:hover {
+      background: #f3f6fa;
+      color: var(--ink);
+    }
+
+    .nav-cta {
+      background: var(--ink);
+      color: #fff !important;
+      box-shadow: 0 10px 28px rgba(22, 33, 58, .18);
+    }
+
+    main {
+      overflow: hidden;
+    }
+
+    .hero {
+      width: min(1180px, calc(100% - 40px));
+      min-height: calc(100vh - 70px);
+      margin: 0 auto;
+      padding: 64px 0 46px;
+      display: grid;
+      grid-template-columns: minmax(0, 1.02fr) minmax(420px, .98fr);
+      gap: 42px;
+      align-items: center;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin: 0 0 18px;
+      color: var(--brand-dark);
+      font-size: 14px;
+      font-weight: 800;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 34px;
+      height: 2px;
+      background: var(--brand);
+      border-radius: 999px;
+    }
+
+    h1 {
+      max-width: 720px;
+      margin: 0;
+      font-size: clamp(44px, 7vw, 84px);
+      line-height: 1;
+      font-weight: 900;
+      letter-spacing: 0;
+      word-break: keep-all;
+    }
+
+    .hero-lead {
+      max-width: 650px;
+      margin: 24px 0 0;
+      color: #4e5a70;
+      font-size: clamp(18px, 2vw, 22px);
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 34px;
+    }
+
+    .button {
+      min-height: 52px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      padding: 0 20px;
+      border: 1px solid transparent;
+      border-radius: var(--radius);
+      font-weight: 800;
+      font-size: 15px;
+    }
+
+    .button.primary {
+      color: #fff;
+      background: var(--brand);
+      box-shadow: 0 18px 34px rgba(244, 91, 42, .25);
+    }
+
+    .button.primary:hover {
+      background: var(--brand-dark);
+    }
+
+    .button.secondary {
+      color: var(--ink);
+      background: rgba(255, 255, 255, .74);
+      border-color: var(--line);
+    }
+
+    .hero-proof {
+      margin-top: 34px;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      max-width: 620px;
+    }
+
+    .proof-item {
+      padding: 16px;
+      background: rgba(255, 255, 255, .74);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+    }
+
+    .proof-item strong {
+      display: block;
+      font-size: 24px;
+      line-height: 1.1;
+    }
+
+    .proof-item span {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .hero-media {
+      position: relative;
+      min-height: 520px;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      background: #dae9ea;
+      isolation: isolate;
+    }
+
+    .hero-media img {
+      width: 100%;
+      height: 100%;
+      min-height: 520px;
+      object-fit: cover;
+    }
+
+    .hero-media::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(22, 33, 58, 0) 35%, rgba(22, 33, 58, .72) 100%);
+      z-index: 1;
+    }
+
+    .feature-card {
+      position: absolute;
+      left: 20px;
+      right: 20px;
+      bottom: 20px;
+      z-index: 2;
+      padding: 20px;
+      border: 1px solid rgba(255, 255, 255, .3);
+      border-radius: var(--radius);
+      color: #fff;
+      background: rgba(14, 22, 39, .62);
+      backdrop-filter: blur(18px);
+    }
+
+    .feature-card span {
+      display: block;
+      color: rgba(255, 255, 255, .76);
+      font-size: 13px;
+      font-weight: 750;
+    }
+
+    .feature-card strong {
+      display: block;
+      margin-top: 6px;
+      font-size: 22px;
+      line-height: 1.25;
+    }
+
+    .feature-card em {
+      display: inline-block;
+      margin-top: 12px;
+      color: #ffe2d5;
+      font-style: normal;
+      font-weight: 800;
+    }
+
+    .section {
+      width: min(1180px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 74px 0;
+    }
+
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      align-items: end;
+      margin-bottom: 24px;
+    }
+
+    .kicker {
+      color: var(--teal);
+      font-size: 13px;
+      font-weight: 850;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      margin: 6px 0 0;
+      font-size: clamp(30px, 4vw, 48px);
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
+
+    .section-copy {
+      max-width: 520px;
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .category-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .category-card {
+      min-height: 210px;
+      padding: 22px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, .82);
+      box-shadow: 0 14px 34px rgba(18, 32, 54, .06);
+      transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease;
+    }
+
+    .category-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(244, 91, 42, .35);
+      box-shadow: 0 22px 45px rgba(18, 32, 54, .1);
+    }
+
+    .card-icon {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      border-radius: 8px;
+      color: #fff;
+      background: var(--ink);
+      font-size: 20px;
+    }
+
+    .category-card:nth-child(2) .card-icon,
+    .category-card:nth-child(6) .card-icon {
+      background: var(--teal);
+    }
+
+    .category-card:nth-child(3) .card-icon,
+    .category-card:nth-child(7) .card-icon {
+      background: var(--green);
+    }
+
+    .category-card:nth-child(4) .card-icon {
+      background: var(--brand);
+    }
+
+    .category-card h3 {
+      margin: 24px 0 6px;
+      font-size: 22px;
+      line-height: 1.2;
+    }
+
+    .category-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .article-band {
+      background: #10213a;
+      color: #fff;
+    }
+
+    .article-band .section {
+      padding-top: 86px;
+      padding-bottom: 86px;
+    }
+
+    .article-band .section-copy,
+    .article-band .kicker {
+      color: rgba(255, 255, 255, .72);
+    }
+
+    .article-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 28px;
+    }
+
+    .article-card {
+      min-height: 280px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 24px;
+      border: 1px solid rgba(255, 255, 255, .14);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, .07);
+    }
+
+    .article-card:hover {
+      border-color: rgba(255, 255, 255, .34);
+      background: rgba(255, 255, 255, .1);
+    }
+
+    .article-meta {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      color: rgba(255, 255, 255, .68);
+      font-size: 13px;
+      font-weight: 750;
+    }
+
+    .article-card h3 {
+      margin: 48px 0 10px;
+      font-size: 22px;
+      line-height: 1.3;
+    }
+
+    .article-card p {
+      margin: 0;
+      color: rgba(255, 255, 255, .72);
+      font-size: 14px;
+    }
+
+    .process {
+      display: grid;
+      grid-template-columns: .95fr 1.05fr;
+      gap: 34px;
+      align-items: start;
+    }
+
+    .steps {
+      display: grid;
+      gap: 12px;
+    }
+
+    .step {
+      display: grid;
+      grid-template-columns: 46px 1fr;
+      gap: 16px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, .78);
+    }
+
+    .step-number {
+      width: 46px;
+      height: 46px;
+      display: grid;
+      place-items: center;
+      border-radius: 8px;
+      color: #fff;
+      background: var(--teal);
+      font-weight: 900;
+    }
+
+    .step h3 {
+      margin: 0 0 4px;
+      font-size: 18px;
+    }
+
+    .step p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .cta {
+      width: min(1180px, calc(100% - 40px));
+      margin: 0 auto 70px;
+      padding: 44px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 28px;
+      align-items: center;
+      border-radius: 8px;
+      color: #fff;
+      background:
+        linear-gradient(135deg, rgba(244, 91, 42, .92), rgba(15, 143, 143, .94)),
+        #20405a;
+      box-shadow: var(--shadow);
+    }
+
+    .cta h2 {
+      margin: 0;
+      font-size: clamp(28px, 4vw, 44px);
+    }
+
+    .cta p {
+      max-width: 680px;
+      margin: 12px 0 0;
+      color: rgba(255, 255, 255, .84);
+    }
+
+    .cta .button {
+      color: var(--ink);
+      background: #fff;
+    }
+
+    footer {
+      border-top: 1px solid var(--line);
+      background: rgba(255, 255, 255, .74);
+    }
+
+    .footer-inner {
+      width: min(1180px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 34px 0;
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .footer-inner strong {
+      color: var(--ink);
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      justify-content: flex-end;
+    }
+
+    .footer-links a {
+      font-weight: 700;
+    }
+
+    @media (max-width: 980px) {
+      .nav {
+        width: min(100% - 28px, 760px);
+        max-width: calc(100vw - 28px);
+      }
+
+      .nav-links {
+        display: none;
+      }
+
+      .hero {
+        width: min(100% - 28px, 760px);
+        max-width: calc(100vw - 28px);
+        min-height: auto;
+        grid-template-columns: 1fr;
+        padding-top: 46px;
+      }
+
+      .hero > * {
+        min-width: 0;
+      }
+
+      .hero-media,
+      .hero-media img {
+        min-height: 390px;
+      }
+
+      .section,
+      .cta,
+      .footer-inner {
+        width: min(100% - 28px, 760px);
+        max-width: calc(100vw - 28px);
+      }
+
+      .section-head,
+      .process,
+      .cta {
+        grid-template-columns: 1fr;
+      }
+
+      .category-grid,
+      .article-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 640px) {
+      .hero {
+        padding-top: 34px;
+        gap: 30px;
+      }
+
+      h1 {
+        font-size: 42px;
+        line-height: 1.08;
+        word-break: break-word;
+      }
+
+      .hero-lead {
+        font-size: 17px;
+        overflow-wrap: anywhere;
+        word-break: break-all;
+      }
+
+      .hero-proof,
+      .category-grid,
+      .article-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .button {
+        width: 100%;
+        max-width: 100%;
+      }
+
+      .hero-media,
+      .hero-media img {
+        min-height: 330px;
+      }
+
+      .feature-card {
+        left: 12px;
+        right: 12px;
+        bottom: 12px;
+      }
+
+      .section {
+        padding: 54px 0;
+      }
+
+      .cta {
+        padding: 30px 22px;
+      }
+
+      .footer-inner {
+        display: grid;
+      }
+
+      .footer-links {
+        justify-content: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <nav class="nav" aria-label="主导航">
+      <a class="brand" href="https://usfuye.com/" aria-label="前往美国副业官网">
+        <span class="brand-mark">$</span>
+        <span>美国副业</span>
+      </a>
+      <div class="nav-links">
+        <a href="https://usfuye.com/side-hustle/">副业</a>
+        <a href="https://usfuye.com/part-time/">兼职</a>
+        <a href="https://usfuye.com/online-income/">线上赚钱</a>
+        <a href="https://usfuye.com/save-money/">省钱</a>
+        <a class="nav-cta" href="https://usfuye.com/">进入官网</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">usfuye.com 内容精选入口</p>
+        <h1>在美国，<br>找到更适合你的<br>副业起点</h1>
+        <p class="hero-lead">面向在美华人、留学生、新移民、宝妈和上班族，整理美国副业、兼职、线上赚钱、小生意和省钱指南。先看方向，再决定怎么开始。</p>
+        <div class="actions">
+          <a class="button primary" href="https://usfuye.com/side-hustle/">浏览副业项目 <span aria-hidden="true">→</span></a>
+          <a class="button secondary" href="https://usfuye.com/make-money/best-money-making-apps-us-2026/">查看赚钱 App 清单</a>
+        </div>
+        <div class="hero-proof" aria-label="网站内容概览">
+          <div class="proof-item">
+            <strong>592</strong>
+            <span>篇实用指南</span>
+          </div>
+          <div class="proof-item">
+            <strong>6+</strong>
+            <span>收入方向</span>
+          </div>
+          <div class="proof-item">
+            <strong>2026</strong>
+            <span>持续更新</span>
+          </div>
+        </div>
+      </div>
+
+      <a class="hero-media" href="https://usfuye.com/make-money/best-money-making-apps-us-2026/" aria-label="阅读 42 个美国赚钱 App 清单">
+        <img src="assets/hero-workspace.png" alt="美国副业主题的现代办公桌、电脑、手机和小生意物品">
+        <div class="feature-card">
+          <span>首页推荐</span>
+          <strong>42 个美国赚钱 App 清单</strong>
+          <em>查看平台和任务类型 →</em>
+        </div>
+      </a>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <div class="kicker">按目标找机会</div>
+          <h2>从你最关心的方向开始</h2>
+        </div>
+        <p class="section-copy">不同人适合的副业不一样。这里把原站内容按场景拆开，方便你快速进入完整分类页。</p>
+      </div>
+      <div class="category-grid">
+        <a class="category-card" href="https://usfuye.com/side-hustle/">
+          <span class="card-icon">💼</span>
+          <div>
+            <h3>美国副业</h3>
+            <p>下班后、周末和低门槛副业项目。</p>
+          </div>
+        </a>
+        <a class="category-card" href="https://usfuye.com/make-money/">
+          <span class="card-icon">💰</span>
+          <div>
+            <h3>美国赚钱</h3>
+            <p>增加收入的机会、平台和实操方法。</p>
+          </div>
+        </a>
+        <a class="category-card" href="https://usfuye.com/part-time/">
+          <span class="card-icon">⏱</span>
+          <div>
+            <h3>美国兼职</h3>
+            <p>灵活排班、小时工和远程兼职。</p>
+          </div>
+        </a>
+        <a class="category-card" href="https://usfuye.com/small-business/">
+          <span class="card-icon">↗</span>
+          <div>
+            <h3>美国小生意</h3>
+            <p>低成本创业、本地服务和试水项目。</p>
+          </div>
+        </a>
+        <a class="category-card" href="https://usfuye.com/save-money/">
+          <span class="card-icon">%</span>
+          <div>
+            <h3>美国省钱</h3>
+            <p>生活成本、购物、药房和家庭预算优化。</p>
+          </div>
+        </a>
+        <a class="category-card" href="https://usfuye.com/online-income/">
+          <span class="card-icon">⌘</span>
+          <div>
+            <h3>线上赚钱</h3>
+            <p>远程接单、内容收入和网络任务。</p>
+          </div>
+        </a>
+        <a class="category-card" href="https://usfuye.com/chinese/">
+          <span class="card-icon">中</span>
+          <div>
+            <h3>美国华人赚钱</h3>
+            <p>更贴近华人社区、人脉和语言优势的机会。</p>
+          </div>
+        </a>
+        <a class="category-card" href="https://usfuye.com/search/">
+          <span class="card-icon">⌕</span>
+          <div>
+            <h3>搜索资料库</h3>
+            <p>按关键词查找具体平台、岗位和避坑文章。</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="article-band">
+      <div class="section">
+        <div class="section-head">
+          <div>
+            <div class="kicker">最新精选</div>
+            <h2>近期值得先看的文章</h2>
+          </div>
+          <p class="section-copy">入口页保留最容易点击的主题，完整文章、更新日期和延伸阅读都在 usfuye.com。</p>
+        </div>
+        <div class="article-grid">
+          <a class="article-card" href="https://usfuye.com/side-hustle/post-20260602-4/">
+            <div class="article-meta"><span>美国副业</span><time datetime="2026-06-02">2026-06-02</time></div>
+            <div>
+              <h3>美国包裹代收提醒副业怎么做</h3>
+              <p>从第一单到稳定接单，适合想做本地服务类副业的人先了解。</p>
+            </div>
+          </a>
+          <a class="article-card" href="https://usfuye.com/side-hustle/post-20260602-3/">
+            <div class="article-meta"><span>美国副业</span><time datetime="2026-06-02">2026-06-02</time></div>
+            <div>
+              <h3>美国家庭物品清单副业怎么做</h3>
+              <p>把整理能力变成服务，适合宝妈、上班族和新移民参考。</p>
+            </div>
+          </a>
+          <a class="article-card" href="https://usfuye.com/online-income/ref-remote-website-testing-side-job-us/">
+            <div class="article-meta"><span>线上赚钱</span><time datetime="2026-06-02">2026-06-02</time></div>
+            <div>
+              <h3>美国远程测试员兼职</h3>
+              <p>网站、App 和用户体验反馈类任务，先看平台边界和收入预期。</p>
+            </div>
+          </a>
+          <a class="article-card" href="https://usfuye.com/part-time/ref-remote-part-time-job-scam-checklist-us/">
+            <div class="article-meta"><span>美国兼职</span><time datetime="2026-06-02">2026-06-02</time></div>
+            <div>
+              <h3>美国远程兼职避坑</h3>
+              <p>区分正规岗位和任务骗局，开始投递前先把风险点看清楚。</p>
+            </div>
+          </a>
+          <a class="article-card" href="https://usfuye.com/online-income/ref-remote-admin-assistant-part-time-us/">
+            <div class="article-meta"><span>线上赚钱</span><time datetime="2026-06-02">2026-06-02</time></div>
+            <div>
+              <h3>美国远程行政助理兼职</h3>
+              <p>稳定比新奇更重要，适合擅长沟通、跟进和整理事务的人。</p>
+            </div>
+          </a>
+          <a class="article-card" href="https://usfuye.com/posts/">
+            <div class="article-meta"><span>资料库</span><span>全部文章</span></div>
+            <div>
+              <h3>继续浏览完整内容库</h3>
+              <p>进入主站查看全部副业、兼职、小生意、省钱和线上赚钱文章。</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process">
+      <div>
+        <div class="kicker">使用方式</div>
+        <h2>先筛选，再行动</h2>
+        <p class="section-copy">副业不是越多越好，先确认时间、现金投入、语言要求和风险，再挑一个能执行的小方向。</p>
+      </div>
+      <div class="steps">
+        <a class="step" href="https://usfuye.com/side-hustle/">
+          <span class="step-number">1</span>
+          <div>
+            <h3>找方向</h3>
+            <p>先浏览副业、兼职、线上赚钱和小生意分类，找到适合当前生活节奏的选项。</p>
+          </div>
+        </a>
+        <a class="step" href="https://usfuye.com/search/">
+          <span class="step-number">2</span>
+          <div>
+            <h3>查细节</h3>
+            <p>搜索具体关键词，比如远程、App、宝妈、留学生、周末、低成本、避坑。</p>
+          </div>
+        </a>
+        <a class="step" href="https://usfuye.com/disclaimer/">
+          <span class="step-number">3</span>
+          <div>
+            <h3>看风险</h3>
+            <p>正式投入前，检查平台规则、税务记录、身份要求、预付款骗局和时间成本。</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div>
+        <h2>打开完整的美国副业资料库</h2>
+        <p>这里是 GitHub Pages 引流入口。更多文章、搜索、标签和后续更新都在主站 usfuye.com。</p>
+      </div>
+      <a class="button" href="https://usfuye.com/">进入 usfuye.com</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div>
+        <strong>美国副业</strong>
+        <div>美国华人副业、兼职、赚钱机会和低成本创业项目入口。</div>
+      </div>
+      <div class="footer-links">
+        <a href="https://usfuye.com/about/">关于</a>
+        <a href="https://usfuye.com/privacy/">隐私</a>
+        <a href="https://usfuye.com/disclaimer/">免责声明</a>
+        <a href="https://usfuye.com/contact/">联系</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

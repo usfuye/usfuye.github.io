@@ -1,1 +1,7 @@
-专注分享美国华人副业、兼职、赚钱机会和低成本创业项目，帮助在美生活的人找到更多收入来源。
+# usfuye.github.io
+
+Static GitHub Pages lead-generation page for [usfuye.com](https://usfuye.com/).
+
+## Deploy
+
+Push this repository to the `main` branch of `usfuye.github.io`, then enable GitHub Pages from the repository settings if it is not already enabled.
